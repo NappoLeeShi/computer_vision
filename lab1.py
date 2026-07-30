@@ -1,7 +1,7 @@
 import cv2
 
 # 2. DOC VA HIEN THI HINH ANH
-image = cv2.imread("E:\daihoc\daihoc1\computervision\shinobu.png")
+image = cv2.imread("E:\daihoc\daihoc1\computervision\lab\datatest/test.jpg")
 if image is None:
     print("No image")
     exit()
