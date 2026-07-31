@@ -1,7 +1,7 @@
 import cv2
 
 # 2. DOC VA HIEN THI HINH ANH
-image = cv2.imread("E:\daihoc\daihoc1\computervision\lab\datatest/test.jpg")
+image = cv2.imread("") #path tới ảnh trong datatest 
 if image is None:
     print("No image")
     exit()
