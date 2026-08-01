@@ -34,3 +34,15 @@ promt 1: Dùng hàm bộ lọc có sẵn của cv2 để áp lên ảnh, sau đ�
 
 promt 2: dựa vào tấm ảnh đã gửi hãy so sánh hiệu quả của các loại lọc khác nhau trên cùng một hình ảnh.
 
+===========================================
+Họ tên: Nguyễn Minh Thảo
+MSSV: 080306001563
+Phần làm: II.3 - Làm sắc nét (Lọc tuyến tính 3)
+===========================================
+
+Các prompt đã sử dụng để hỏi AI:
+
+1. Yêu cầu viết hàm làm sắc nét bằng kernel cơ bản (dựa trên nguyên lý Laplacian), đọc ảnh và hiển thị so sánh ảnh gốc/ảnh sau xử lý bằng OpenCV và Matplotlib.
+
+2. Yêu cầu bổ sung thêm kernel làm sắc nét mạnh hơn (dùng cả 8 điểm ảnh lân cận) và kỹ thuật unsharp masking (làm mờ bằng Gaussian rồi cộng ngược phần chi tiết vào ảnh gốc), so sánh kết quả của 3 phương pháp với ảnh gốc.
+
