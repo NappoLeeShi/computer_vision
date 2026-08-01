@@ -13,3 +13,24 @@ Prompt 3: Viết tương tự cho toán tử Prewitt.
 Prompt 4: Viết hàm ngưỡng hóa (threshold) kết quả gradient để tạo ảnh nhị phân biên cạnh.
 
 Prompt 5: Vẽ biểu đồ so sánh (3x3 subplot) gồm ảnh gốc, Gx, Gy, kết quả Sobel/Prewitt thủ công và OpenCV, ảnh sau ngưỡng hóa.
+
+===========================================
+Họ tên: Khuất Trọng Thuận
+MSSV: 056206010529
+Phần: III Bài tập nâng cao.
+2. Tự thiết kế kernel: Tạo các kernel tùy chỉnh để đạt được các hiệu ứng khác nhau.
+3. So sánh các loại lọc: So sánh hiệu quả của các loại lọc khác nhau trên cùng một hình ảnh.
+===========================================
+
+2. Tự thiết kế kernel: Tạo các kernel tùy chỉnh để đạt được các hiệu ứng khác nhau.
+
+Promt 1: dùng numpy để thiết kế một ma trận kernel đi, sau đó dùng hàm cv2.filter2D() để áp ma trận đó lên ảnh
+
+Promt 2: thử thêm vài ma trận 
+
+3. So sánh các loại lọc: So sánh hiệu quả của các loại lọc khác nhau trên cùng một hình ảnh.
+
+promt 1: Dùng hàm bộ lọc có sẵn của cv2 để áp lên ảnh, sau đó dùng matplot để trực quan hóa so sánh hiệu quả các bộ lọc đối với ảnh
+
+promt 2: dựa vào tấm ảnh đã gửi hãy so sánh hiệu quả của các loại lọc khác nhau trên cùng một hình ảnh.
+
