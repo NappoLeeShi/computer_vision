@@ -45,4 +45,29 @@ Các prompt đã sử dụng để hỏi AI:
 1. Yêu cầu viết hàm làm sắc nét bằng kernel cơ bản (dựa trên nguyên lý Laplacian), đọc ảnh và hiển thị so sánh ảnh gốc/ảnh sau xử lý bằng OpenCV và Matplotlib.
 
 2. Yêu cầu bổ sung thêm kernel làm sắc nét mạnh hơn (dùng cả 8 điểm ảnh lân cận) và kỹ thuật unsharp masking (làm mờ bằng Gaussian rồi cộng ngược phần chi tiết vào ảnh gốc), so sánh kết quả của 3 phương pháp với ảnh gốc.
+=====================================
 
+=====================================
+
+Họ tên: Nguyễn Thường Kiệt
+
+MSSV: 051206002331
+
+Phần thực hiện:
+
+I. Toán tử điểm ảnh
+
+1. Thay đổi độ sáng (Brightness)
+
+2. Thay đổi độ tương phản (Contrast)
+
+Các prompt đã sử dụng:
+
+Prompt 1:
+Viết chương trình Python sử dụng OpenCV để thay đổi độ sáng của ảnh bằng hàm cv2.convertScaleAbs và hiển thị kết quả bằng matplotlib.
+
+Prompt 2:
+Viết chương trình Python sử dụng OpenCV để thay đổi độ tương phản của ảnh bằng hàm cv2.convertScaleAbs và hiển thị kết quả bằng matplotlib.
+
+Prompt 3:
+Viết phần giải thích lý thuyết về thay đổi độ sáng và thay đổi độ tương phản để trình bày trong Jupyter Notebook dưới dạng Markdown.
