@@ -46,3 +46,13 @@ Các prompt đã sử dụng để hỏi AI:
 
 2. Yêu cầu bổ sung thêm kernel làm sắc nét mạnh hơn (dùng cả 8 điểm ảnh lân cận) và kỹ thuật unsharp masking (làm mờ bằng Gaussian rồi cộng ngược phần chi tiết vào ảnh gốc), so sánh kết quả của 3 phương pháp với ảnh gốc.
 
+==================================================
+Họ và tên : Nguyễn Tăng Thành
+MSSV      : 051206000456
+Phần làm  : Phần 3 (Biến đổi âm bản) & Phần 4 (Cắt ngưỡng - Toán tử điểm ảnh)
+==================================================
+ Prompt 1: Các prompt đã sử dụng 
+
+Đọc một hình ảnh bất kỳ từ máy tính và thực hiện các yêu cầu sau:
+3. Biến đổi âm bản: Đảo ngược các giá trị điểm ảnh, tạo ra ảnh âm bản.
+4. Cắt ngưỡng: Tạo ảnh nhị phân bằng cách so sánh giá trị mỗi điểm ảnh với một ngưỡng nhất định."
