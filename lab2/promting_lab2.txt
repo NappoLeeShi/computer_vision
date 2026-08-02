@@ -84,3 +84,15 @@ hình ảnh (sử dụng công thức $s = L - 1 - r$). Đọc ảnh đầu vào
 4. Cắt ngưỡng: "Viết code Python sử dụng OpenCV để cắt ngưỡng nhị phân cho một hình ảnh. Chuyển ảnh đầu vào sang 
 ảnh xám (cv2.cvtColor), sau đó áp dụng toán tử cắt ngưỡng (cv2.threshold) với ngưỡng $T = 128$. Hiển thị so sánh ảnh gốc,
  ảnh xám và ảnh nhị phân kết quả."
+
+
+==
+Họ và Tên: Hoàng Phạm Minh Tiến
+1. Median blur
+
+2. Bilateral filter
+
+
+Tool: Google search for api
+https://docs.opencv.org/4.13.0/dc/dd3/tutorial_gausian_median_blur_bilateral_filter.html
+https://www.geeksforgeeks.org/python/python-bilateral-filtering/
