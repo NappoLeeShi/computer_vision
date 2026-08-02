@@ -1,7 +1,0 @@
-Họ tên  : Nguyễn Tăng Thành
-MSSV    : 051206000456
-Phần làm: Phần 3 (Biến đổi âm bản) & Phần 4 (Cắt ngưỡng) - Toán tử điểm ảnh
-
-Prompts đã sử dụng:
-1. "Đọc một hình ảnh bất kỳ từ máy tính và thực hiện các yêu cầu: Biến đổi âm bản, Cắt ngưỡng..."
-2. "pull về, code vào file lab2 đang là jupyternotebook đó, markdown ghi vô đó luonm tên gì, mssv, phần làm, sau khi làm xog vô file promting_lab2.txt..."
