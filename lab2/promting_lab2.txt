@@ -71,3 +71,17 @@ Viết chương trình Python sử dụng OpenCV để thay đổi độ tương
 
 Prompt 3:
 Viết phần giải thích lý thuyết về thay đổi độ sáng và thay đổi độ tương phản để trình bày trong Jupyter Notebook dưới dạng Markdown.
+
+==================================================
+Họ và tên : Nguyễn Tăng Thành
+MSSV      : 051206000456
+Phần làm  : Phần 3 (Biến đổi âm bản) & Phần 4 (Cắt ngưỡng - Toán tử điểm ảnh)
+==================================================
+ Prompt : Các prompt đã sử dụng 
+Đọc một hình ảnh bất kỳ từ máy tính và thực hiện các yêu cầu sau:
+3. Biến đổi âm bản:"Viết hàm Python bằng OpenCV và Matplotlib để thực hiện biến đổi âm bản cho một 
+hình ảnh (sử dụng công thức $s = L - 1 - r$). Đọc ảnh đầu vào, thực hiện đảo ngược giá trị các điểm ảnh và hiển thị so
+ sánh ảnh gốc với ảnh âm bản thu được."
+4. Cắt ngưỡng: "Viết code Python sử dụng OpenCV để cắt ngưỡng nhị phân cho một hình ảnh. Chuyển ảnh đầu vào sang 
+ảnh xám (cv2.cvtColor), sau đó áp dụng toán tử cắt ngưỡng (cv2.threshold) với ngưỡng $T = 128$. Hiển thị so sánh ảnh gốc,
+ ảnh xám và ảnh nhị phân kết quả."
