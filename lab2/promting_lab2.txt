@@ -3,7 +3,7 @@ Họ tên: Trần Thị Minh Thùy
 MSSV: 091306004639
 Phần: III Bài tập nâng cao.1 - Phát hiện cạnh (Sobel, Prewitt)
 ===========================================
-
+III Bài tập nâng cao.1 - Phát hiện cạnh (Sobel, Prewitt)
 Prompt 1: Viết hàm tích chập 2D thủ công bằng vòng lặp, có padding, để áp dụng cho việc phát hiện cạnh trong ảnh.
 
 Prompt 2: Viết hàm phát hiện cạnh bằng toán tử Sobel, có cả 2 cách: tính thủ công bằng hàm convolution tự viết và dùng OpenCV (cv2.filter2D), tính độ lớn gradient tổng hợp.
@@ -14,6 +14,10 @@ Prompt 4: Viết hàm ngưỡng hóa (threshold) kết quả gradient để tạ
 
 Prompt 5: Vẽ biểu đồ so sánh (3x3 subplot) gồm ảnh gốc, Gx, Gy, kết quả Sobel/Prewitt thủ công và OpenCV, ảnh sau ngưỡng hóa.
 
+II - Phát hiện cạnh bằng Canny (OpenCV vs Scikit-image)
+Prompt 1: Viết code so sánh thuật toán Canny bằng OpenCV (cv2.Canny) và Scikit-image (skimage.feature.canny).
+
+Prompt 2: Chia code thành các cell riêng: đọc ảnh, xử lý Canny, vẽ so sánh kết quả.
 ===========================================
 Họ tên: Khuất Trọng Thuận
 MSSV: 056206010529
