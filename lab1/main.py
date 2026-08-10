@@ -1,7 +1,7 @@
 import cv2
 
 # 2. DOC VA HIEN THI HINH ANH
-image = cv2.imread("E:\daihoc\daihoc1\computervision\lab\datatest/test.jpg") #path tới ảnh trong datatest 
+image = cv2.imread("./datatest/test.jpg") #path tới ảnh trong datatest 
 if image is None:
     print("No image")
     exit()
@@ -33,7 +33,7 @@ _ = cv2.waitKey(0)
 
 # RATIO
 resized_ratio = cv2.resize(image, (0, 0), fx=0.5, fy=0.5)
-resized_fixed = cv2.resize(image, (300, 400))
+resized_fixed = cv2.resize(image, (1000, 400))
 cv2.imshow("Ratio", resized_ratio)
 cv2.imshow("Fixed", resized_fixed)
 _ = cv2.waitKey(0)
