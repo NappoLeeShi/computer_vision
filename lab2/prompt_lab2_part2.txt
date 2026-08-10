@@ -1,0 +1,38 @@
+the first image is base test image, which will be split into: noisy, low contrast
+
+the second image is detailed image
+
+third image is the result after executing code
+
+
+code:
+noise = np.random.normal(0, 25, img.shape).astype(np.uint8)
+
+noiseImg = cv2.cvtColor(cv2.add(img, noise), cv2.COLOR_BGR2RGB)
+
+lowConImg = cv2.cvtColor(cv2.convertScaleAbs(
+
+img,
+
+alpha=0.2,
+
+beta=0
+
+),
+
+
+cv2.COLOR_BGR2RGB
+
+)
+
+
+detailedImg = cv2.cvtColor(cv2.imread("./datatest/detailed.jpg"), cv2.COLOR_BGR2RGB)
+
+
+cv2.Canny(noiseImg, threshold1, threshold2)
+
+cv2.Canny(lowConImg, threshold1, threshold2)
+
+cv2.Canny(detailedImg, threshold1, threshold2)
+
+your task: evaluate the result, and give a final conclusion
