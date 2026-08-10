@@ -1,4 +1,4 @@
-## Plant for lab 2
+## Plan for lab 2
 ### 1. Cài đặt các thư viện OpenCV, Matplotlib và Numpy
 - **Subtask:** Initialize venv
 - **Commands:**
@@ -37,3 +37,15 @@
 3. So sánh các loại lọc: Đặt ảnh gốc và các ảnh kết quả sau khi qua các bộ lọc (Trung bình, Gaussian, Sắc nét, Sobel,...) nằm cạnh nhau trên cùng một khung hình để nhận xét ưu/nhược điểm từng loại.
 
 4. Áp dụng lọc phi tuyến tính: Triển khai bộ lọc Trung vị (Median Filter) để khử nhiễu muối tiêu và bộ lọc Song phương (Bilateral Filter) để vừa làm mịn ảnh vừa giữ nguyên biên cạnh sắc nét.
+
+## 3. Phân công thành viên 
+
+| Thành viên | | Hạng mục công việc đảm nhận | Trạng thái |
+| :--- | :--- | :--- | :--- |
+| **Nguyễn Thường Kiệt** | | **Phần I.1,2 Thay đổi độ sáng & Thay đổi độ tương phản:** Cài đặt chức năng Thay đổi độ sáng, Thay đổi độ tương phản, Biến đổi âm bản, Cắt ngưỡng (Thresholding). | `Hoàn thành` |
+| **Nguyễn Tăng Thành** |  | - **Phần I.3,4 Biến đổi âm bản & Cắt ngưỡng:** .<br>- **III.1 & III.2:**  và .Biến đổi âm bản, Cắt ngưỡng (Thresholding) | `Hoàn thành` |
+| **Hồ Quốc Toản** |  | - **II.1,2 Lọc trung bình (Mean Filter) & Lọc Gaussian :**Cài đặt các bộ lọc Lọc trung bình (Mean Filter), Lọc Gaussian (Gaussian Blur) .<br>- * . | `Hoàn thành` |
+| **Nguyễn Minh Thảo** | | - **II.3.Làm sắc nét ảnh (Sharpening) :**| `Hoàn thành` |
+| **Trần Thị Minh Thùy** | | - **III.1 Phát hiện cạnh :**Phát hiện cạnh (Sobel, Prewitt)  | `Hoàn thành` |
+| **Khuất Trọng Thuận** | | - Quản lý repo, khởi tạo cấu trúc dự án và viết tài liệu (`PLAN.md`, `implementation.md`).<br>- Chuẩn bị ảnh test (`datatest/`), <br> - **III.2,3.Tự thiết kế Kernel tùy chỉnh &  So sánh các loại lọc :**Tự thiết kế Kernel tùy chỉnh,Lập bảng & trực quan hóa so sánh hiệu quả của các bộ lọc trên cùng một bức ảnh| `Hoàn thành` |
+| **Hoàng Phạm Minh Tiến** |  | - Quản lý repo, khởi tạo cấu trúc dự án và viết tài liệu (`PLAN.md`, `implemantation.md`).<br>- Chuẩn bị ảnh test (`datatest/`), <br> - **III.4.Áp dụng lọc phi tuyến tính :**Nghiên cứu và cài đặt Lọc trung vị (Median Filter) và Lọc song phương (Bilateral Filter)| `Hoàn thành` |
