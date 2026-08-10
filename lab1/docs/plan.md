@@ -40,7 +40,7 @@ Củng cố kỹ năng cơ bản trong việc dùng các thư viện opencv/pill
 
 ## 4. Checklist tiến độ
 - [X] Task 1: Môi trường & Dataset ảnh
-- [ ] Task 2: Read / Display / Save Image
-- [ ] Task 3: Color space conversions
-- [ ] Task 4: Crop & Resize
-- [ ] Task 5: Draw shapes & Text annotation
+- [X] Task 2: Read / Display / Save Image
+- [X] Task 3: Color space conversions
+- [X] Task 4: Crop and Resize
+- [X] Task 5: Draw shapes and Text annotation
