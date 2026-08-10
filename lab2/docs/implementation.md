@@ -1,5 +1,18 @@
 # IMPLEMENTATION FOR LAB 2
 
+# DIRECTORY TREE
+```
+.
+├── datatest
+│   └── test.jpg
+├── lab2
+│   ├── outputs
+│   ├── docs
+│   │   ├── implementation.md
+│   │   └── plan.md
+│   │   └── evidence.md
+│   ├── main.ipynb
+```
 ## 1. Môi trường & Thư viện sử dụng
 - **Ngôn ngữ:** Python 3.x (Triển khai trên Jupyter Notebook / File `.py`).
 - **Thư viện chính:**
