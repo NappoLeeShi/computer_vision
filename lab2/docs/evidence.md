@@ -1,8 +1,11 @@
-===========================================
+===
 Họ tên: Trần Thị Minh Thùy
+
 MSSV: 091306004639
+
 Phần: III Bài tập nâng cao.1 - Phát hiện cạnh (Sobel, Prewitt)
-===========================================
+
+===
 III Bài tập nâng cao.1 - Phát hiện cạnh (Sobel, Prewitt)
 
 
@@ -24,13 +27,17 @@ Prompt 1: Viết code so sánh thuật toán Canny bằng OpenCV (cv2.Canny) và
 
 Prompt 2: Chia code thành các cell riêng: đọc ảnh, xử lý Canny, vẽ so sánh kết quả.
 
-===========================================
+===
 Họ tên: Khuất Trọng Thuận
-MSSV: 056206010529
+
+
 Phần: III Bài tập nâng cao.
+
 2. Tự thiết kế kernel: Tạo các kernel tùy chỉnh để đạt được các hiệu ứng khác nhau.
+
 3. So sánh các loại lọc: So sánh hiệu quả của các loại lọc khác nhau trên cùng một hình ảnh.
-===========================================
+
+===
 
 2. Tự thiết kế kernel: Tạo các kernel tùy chỉnh để đạt được các hiệu ứng khác nhau.
 
@@ -46,18 +53,22 @@ promt 2: dựa vào tấm ảnh đã gửi hãy so sánh hiệu quả của các
 
 
 
-===========================================
+====
 Họ tên: Nguyễn Minh Thảo
+
 MSSV: 080306001563
+
 Phần làm: II.3 - Làm sắc nét (Lọc tuyến tính 3)
-===========================================
+
+===
 
 Các prompt đã sử dụng để hỏi AI:
 
 1. Yêu cầu viết hàm làm sắc nét bằng kernel cơ bản (dựa trên nguyên lý Laplacian), đọc ảnh và hiển thị so sánh ảnh gốc/ảnh sau xử lý bằng OpenCV và Matplotlib.
 
 2. Yêu cầu bổ sung thêm kernel làm sắc nét mạnh hơn (dùng cả 8 điểm ảnh lân cận) và kỹ thuật unsharp masking (làm mờ bằng Gaussian rồi cộng ngược phần chi tiết vào ảnh gốc), so sánh kết quả của 3 phương pháp với ảnh gốc.
-=====================================
+
+===
 
 
 Họ tên: Nguyễn Thường Kiệt
@@ -83,16 +94,22 @@ Viết chương trình Python sử dụng OpenCV để thay đổi độ tương
 Prompt 3:
 Viết phần giải thích lý thuyết về thay đổi độ sáng và thay đổi độ tương phản để trình bày trong Jupyter Notebook dưới dạng Markdown.
 
-==================================================
+====
 Họ và tên : Nguyễn Tăng Thành
+
 MSSV      : 051206000456
+
 Phần làm  : Phần 3 (Biến đổi âm bản) & Phần 4 (Cắt ngưỡng - Toán tử điểm ảnh)
-==================================================
+
+===
  Prompt : Các prompt đã sử dụng 
+
 Đọc một hình ảnh bất kỳ từ máy tính và thực hiện các yêu cầu sau:
+
 3. Biến đổi âm bản:"Viết hàm Python bằng OpenCV và Matplotlib để thực hiện biến đổi âm bản cho một 
 hình ảnh (sử dụng công thức $s = L - 1 - r$). Đọc ảnh đầu vào, thực hiện đảo ngược giá trị các điểm ảnh và hiển thị so
  sánh ảnh gốc với ảnh âm bản thu được."
+
 4. Cắt ngưỡng: "Viết code Python sử dụng OpenCV để cắt ngưỡng nhị phân cho một hình ảnh. Chuyển ảnh đầu vào sang 
 ảnh xám (cv2.cvtColor), sau đó áp dụng toán tử cắt ngưỡng (cv2.threshold) với ngưỡng $T = 128$. Hiển thị so sánh ảnh gốc,
  ảnh xám và ảnh nhị phân kết quả."
