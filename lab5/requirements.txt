@@ -1,0 +1,30 @@
+# Image and frame processing.
+numpy
+opencv-python
+
+# MTCNN face detection. facenet-pytorch is used because it ships the
+# pre-trained MTCNN P-Net/R-Net/O-Net weights and accepts NumPy frames
+# directly, so no model download or extra detection setup is needed.
+facenet-pytorch
+
+# Imported by MTCNN at runtime.
+torch
+torchvision
+
+# Required by facenet-pytorch itself.
+Pillow
+requests
+tqdm
+
+#
+# Install with the following two commands, in this order:
+#
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+#   pip install --no-deps facenet-pytorch requests tqdm
+#
+# The --no-deps flag is required: facenet-pytorch 2.6.0 still declares
+# numpy<2, Pillow<10.3, torch<2.3 and torchvision<0.18, and none of those
+# old versions ship Python 3.14 wheels, so a plain
+# "pip install -r requirements.txt" fails while building Pillow from source.
+# The versions installed here are numpy 2.5.1, Pillow 12.3.0,
+# torch 2.14.0+cpu and torchvision 0.29.0+cpu, which work correctly.
