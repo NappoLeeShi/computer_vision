@@ -1,0 +1,4 @@
+numpy
+PyWavelets
+Pillow
+matplotlib
