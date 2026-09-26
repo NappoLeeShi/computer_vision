@@ -11,7 +11,7 @@ This initial version contains only the project structure. The image-matching alg
 ## Project structure
 
 - `README.md`: project overview and structure.
-- `prompts/00_project_architecture.md`: instructions for the initial project setup.
+- `prompts/`: instructions for the project.
 - `data/similar/`: image pairs that should be classified as similar.
 - `data/dissimilar/`: image pairs that should be classified as dissimilar.
 - `src/wavelet_hash.py`: future wavelet transformation, coefficient quantization, and hash generation.
@@ -20,6 +20,7 @@ This initial version contains only the project structure. The image-matching alg
 - `results/hashes/`: generated image hashes.
 - `results/metrics/`: calculated evaluation metrics.
 - `results/plots/`: generated evaluation plots, including the ROC curve.
+- `agent_sessions/`: recorded agent session file and extracted prompts and responses.
 
 ## Dataset generation
 
